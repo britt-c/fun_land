@@ -1,6 +1,0 @@
-require 'faker'
-
-'INSERT INTO rewards(item_name, tokens, available) VALUES (Faker::Creature::Animal.name, Faker::Number.between(from: 5, to: 5000), Faker::Number.within(range: 0..100) )'
-
-
-
